@@ -94,5 +94,3 @@ elif nav == "Critical Thinking Analyst":
             st.markdown(f"<div class='analyst-note'>{note}</div>", unsafe_allow_html=True)
         except:
             st.write(f"Analysis unavailable for {ticker}")
-
-st.caption("This is the final complete dashboard. Refresh the page if needed.")
